@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Mali&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+		<nav>
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="about.html">О нас</a></li>
+				<li><a href="actors.html">Персонал</a></li>
+				<li><a href="top.html">Топ 2019</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
+			</ul>
+		</nav>
+			
+			  <div class="menu-block">
+    <a href="#" class="menu-btn">
+      <span></span>
+    </a>
+    
+    <span class="menu">
+      <a href="contacts.html"><img src="https://img.icons8.com/ios/50/000000/map-marker.png" width="22px" height="22px"><i class="fas fa-camera-retro"></i></a>
+      <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/000000/ringer-volume.png" width="22px" height="22px"><i class="fas fa-calendar-check" ></i></a>
+      <a href="#"><i class="fas fa-calculator"></i></a>
+    </span>
+    
+  </div>
+
+
+
+
+		</div>
+		<form >
+			<input type="text" placeholder="Введите логин" class="input">
+			<input type="password" placeholder="Введите пароль" class="input2">
+
+
+
+		<div class="basicBox">
+  			войти
+  			<svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
+    			<rect x='0' y='0' fill='none' width='130' height='65'/>
+  			</svg>
+		</div>
+			
+	
+
+
+		</form>
+	</header>
+	<div class="models"><strong class="top">Топ 5</strong></div>
+	<div class="photos">
+		<a href="img/photo1.jpg" data-fancybox="gallery">
+			<img src="img/photo1.jpg" alt="" width="200px" height="200px"></a>
+		<a href="img/photo2.jpg" data-fancybox="gallery">
+			<img src="img/photo2.jpg" alt="" width="200px" height="200px"></a>
+		<a href="img/photo3.jpg" data-fancybox="gallery">
+			<img src="img/photo3.jpg" alt="" width="200px" height="200px"></a>
+		<a href="img/photo4.jpg" data-fancybox="gallery">
+			<img src="img/photo4.jpg" alt="" width="200px" height="200px"></a>
+		<a href="img/photo5.jpg" data-fancybox="gallery">
+			<img src="img/photo5.jpg" alt="" width="200px" height="200px"></a>
+	</div>
+
+	<div class="owl-carousel">
+		<div class="imge"><img src="img/photo1.jpg" alt=""></div>
+		<div class="imge"><img src="img/photo2.jpg" alt=""></div>
+		<div class="imge"><img src="img/photo3.jpg" alt=""></div>
+		<div class="imge"><img src="img/photo4.jpg" alt=""></div>
+		<div class="imge"><img src="img/photo5.jpg" alt=""></div>
+	</div>
+
+	
+
+	
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" /> <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"> <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> <script> $(".owl-carousel").owlCarousel({ autoplay:true, autoplayTimeout:2000, loop:true, items:1 }); </script>
+
+
+<script>$('.menu-btn').on('click', function(e) {
+  e.preventDefault();
+  $(this).toggleClass('menu-btn_active');
+  $('.menu').toggleClass('menu_active');
+});</script>
+
+<script>$('.menu-btn').on('click', function(e) {
+  e.preventDefault();
+  $('.menu').toggleClass('menu_active');
+  $('.content').toggleClass('content_active');
+})</script>
+
+
+
+
+
+
+</body>
+</html>
