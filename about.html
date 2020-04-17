@@ -20,18 +20,41 @@
 			
 		</div>
 		<div class="models"><strong class="top">Топ 5</strong></div>
-	<div class="photos">
-		<a href="img/photo1.jpg" data-fancybox="gallery">
-			<img src="img/photo1.jpg" alt="" width="200px" height="200px"></a>
-		<a href="img/photo2.jpg" data-fancybox="gallery">
-			<img src="img/photo2.jpg" alt="" width="200px" height="200px"></a>
-		<a href="img/photo3.jpg" data-fancybox="gallery">
-			<img src="img/photo3.jpg" alt="" width="200px" height="200px"></a>
-		<a href="img/photo4.jpg" data-fancybox="gallery">
-			<img src="img/photo4.jpg" alt="" width="200px" height="200px"></a>
-		<a href="img/photo5.jpg" data-fancybox="gallery">
-			<img src="img/photo5.jpg" alt="" width="200px" height="200px"></a>
+	<div class="owl-carousel">
+		<div class="imge"><img src="img/photo1.jpg" alt=""></div>
+		<div class="imge"><img src="img/photo2.jpg" alt=""></div>
+		<div class="imge"><img src="img/photo3.jpg" alt=""></div>
+		<div class="imge"><img src="img/photo4.jpg" alt=""></div>
+		<div class="imge"><img src="img/photo5.jpg" alt=""></div>
 	</div>
+
+	
+
+	
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" /> <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"> <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> <script> $(".owl-carousel").owlCarousel({ autoplay:true, autoplayTimeout:2000, loop:true, items:1 }); </script>
+
+
+<script>$('.menu-btn').on('click', function(e) {
+  e.preventDefault();
+  $(this).toggleClass('menu-btn_active');
+  $('.menu').toggleClass('menu_active');
+});</script>
+
+<script>$('.menu-btn').on('click', function(e) {
+  e.preventDefault();
+  $('.menu').toggleClass('menu_active');
+  $('.content').toggleClass('content_active');
+})</script>
+
 			
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" /> <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
